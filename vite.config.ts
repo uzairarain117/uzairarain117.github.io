@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/joti-portfolio/", // ✅ MUST be here (root level)
+  base: "/",
 
   server: {
     host: "::",
